@@ -1,5 +1,5 @@
 total = 0
-with open("./1-1input.txt") as f:
+with open(".inputs/1.txt") as f:
     for line in f:
         front = 0
         ffound = False
