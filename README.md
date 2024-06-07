@@ -14,6 +14,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 4-2 - 10 mins  
 5-1 - 1 hour  
 5-2 - 1 hour 53 mins  
+6-1 - 26 mins
+6-2 - 5 mins
 
 ## Reflections:  
 ### 4-2
@@ -23,3 +25,8 @@ Wow, brute force was not the way. Final time was 59 mins, which is nuts. Using r
 ### 5-2 
 I had the right method quite quickly, but an uncaught mistake caused me to hunt for a fix in the wrong direction for the longest time. To improve I should review the entire code when the output is incorrect. Even the simplest "cannot be wrong" lines. I attempted brute force here and there, taking more than 10 minutes per run.  
 Curiously, my method now obtains the answer in under 400 seeds tested, but continues to add to the queue millions more seeds. I am unsure what the issue could be.
+### 6-1
+I realised almost immediately as I was reading the puzzle that using a quadratic formula would be ideal. I did some quick googling for rounding up and down, as I used completing the square to solve the quadratic, which in most cases would leave decimals, but created my own simple rounding to fit the question best.
+### 6-2
+I'm glad I used math rather than brute force, got the correct answer on the first try.  
+Day 6 was much easier than day 5.
