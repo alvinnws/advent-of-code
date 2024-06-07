@@ -14,7 +14,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 4-2 - 10 mins  
 5-1 - 1 hour  
 5-2 - 1 hour 53 mins  
-6-1 - 26 mins
+6-1 - 26 mins  
 6-2 - 5 mins
 
 ## Reflections:  
