@@ -34,5 +34,5 @@ I'm glad I used math rather than brute force, got the correct answer on the firs
 Day 6 was much easier than day 5.
 ### 7-1
 I would presume there are much better design choices to have taken, unfortunately I ended up recreating bubble sort to sort the hands. Fortunately the computation time remained under 1s.
-### 7-1
+### 7-2
 Oh if it isn't the consequences of my actions. To fit my code from 7-1, I needed to hardcode the effects of all the jokers. This was time consuming but I still got the answer without much issues.
