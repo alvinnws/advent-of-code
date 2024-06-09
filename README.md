@@ -18,6 +18,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 6-2 - 5 mins  
 7-1 - 46mins  
 7-2 - 26mins  
+8-1 - 15mins  
+8-2 - 2 hours  
 
 ## Reflections:  
 ### 4-2
@@ -36,3 +38,7 @@ Day 6 was much easier than day 5.
 I would presume there are much better design choices to have taken, unfortunately I ended up recreating bubble sort to sort the hands. Fortunately the computation time remained under 1s.
 ### 7-2
 Oh if it isn't the consequences of my actions. To fit my code from 7-1, I needed to hardcode the effects of all the jokers. This was time consuming but I still got the answer without much issues.
+### 8-1
+Seemed really direct, spent more time on understanding what the question wanted to be honest. At first read I thought it would be a shortest path type of question, but nevertheless solved fairly quickly
+### 8-2
+Quick mod of 8-1 code produces a brute force method that would take a casual 300 hours to compute. While initially waiting for the brute force method, I was scrolling online to check that it SHOULD take quite a while, not knowing precisely how long, I came across a comment that hinted at the intended solution. "Think about cycles", yet that comment was enough to get me to change my entire strategy. I'm not sure if I would have thought about it without external assistance, but I'll not look online for the next puzzles.
