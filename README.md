@@ -20,6 +20,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 7-2 - 26mins  
 8-1 - 15mins  
 8-2 - 2 hours  
+9-1 - 12min 15s
+9-2 - 1min 46s
 
 ## Reflections:  
 ### 4-2
@@ -42,3 +44,5 @@ Oh if it isn't the consequences of my actions. To fit my code from 7-1, I needed
 Seemed really direct, spent more time on understanding what the question wanted to be honest. At first read I thought it would be a shortest path type of question, but nevertheless solved fairly quickly
 ### 8-2
 Quick mod of 8-1 code produces a brute force method that would take a casual 300 hours to compute. While initially waiting for the brute force method, I was scrolling online to check that it SHOULD take quite a while, not knowing precisely how long, I came across a comment that hinted at the intended solution. "Think about cycles", yet that comment was enough to get me to change my entire strategy. I'm not sure if I would have thought about it without external assistance, but I'll not look online for the next puzzles.
+### 9-1 and 9-2
+Super happy with the timing and code complexity. I knew instantly from generating new lines that a recursive function would be ideal. Lucky that part 2 only required changing a few *characters*.
