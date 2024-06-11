@@ -16,12 +16,14 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 5-2 - 1 hour 53 mins  
 6-1 - 26 mins   
 6-2 - 5 mins  
-7-1 - 46mins  
-7-2 - 26mins  
-8-1 - 15mins  
+7-1 - 46 mins  
+7-2 - 26 mins  
+8-1 - 15 mins  
 8-2 - 2 hours  
-9-1 - 12min 15s
-9-2 - 1min 46s
+9-1 - 12 min 15s  
+9-2 - 1 min 46s  
+10-1 - 26 mins  
+10-2 - 2 hours 4 mins  
 
 ## Reflections:  
 ### 4-2
@@ -46,3 +48,7 @@ Seemed really direct, spent more time on understanding what the question wanted 
 Quick mod of 8-1 code produces a brute force method that would take a casual 300 hours to compute. While initially waiting for the brute force method, I was scrolling online to check that it SHOULD take quite a while, not knowing precisely how long, I came across a comment that hinted at the intended solution. "Think about cycles", yet that comment was enough to get me to change my entire strategy. I'm not sure if I would have thought about it without external assistance, but I'll not look online for the next puzzles.
 ### 9-1 and 9-2
 Super happy with the timing and code complexity. I knew instantly from generating new lines that a recursive function would be ideal. Lucky that part 2 only required changing a few *characters*.
+### 10-1
+This one was decent, I roughly knew what to do and took my time to implement, getting the correct answer on my first try (after debugging)
+### 10-2
+I got my ass kicked, struggling for over an hour not knowing what or how to do. I did find an upper limit for the answer by counting the number of characters not part of the main pipe loop AND existing with a direct path to any edge. Eventually, I looked for hints, being pointed to Pick's Theorem and the Shoelace formula. The shoelace formula I had learnt in secondary school, but dismissed it at the time in favour of another method for maths, but I had never heard of Pick's Theorem and would never have come close to it. This is just part of the learning process I suppose
