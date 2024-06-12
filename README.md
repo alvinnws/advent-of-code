@@ -55,3 +55,5 @@ This one was decent, I roughly knew what to do and took my time to implement, ge
 I got my ass kicked, struggling for over an hour not knowing what or how to do. I did find an upper limit for the answer by counting the number of characters not part of the main pipe loop AND existing with a direct path to any edge. Eventually, I looked for hints, being pointed to Pick's Theorem and the Shoelace formula. The shoelace formula I had learnt in secondary school, but dismissed it at the time in favour of another method for maths, but I had never heard of Pick's Theorem and would never have come close to it. This is just part of the learning process I suppose
 ### 11-1
 Fairly straightfoward. I am certain I did not use the most efficient method but the answer is correct on the first try anyway
+### 11-2
+Well a quick mod to continue bruteforcing is... not ideal to say the least. Fortunately, I quickly came up with an alternative and spent more time debugging than implementing. Biggest takeaway is to keep track of my columns and rows (x and y) better. The mixups definitely took a chunk of my time.
