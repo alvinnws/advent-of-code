@@ -27,6 +27,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 11-1 - 14mins
 11-2 - 28mins
 12-1 - 1 hour 16 mins
+12-2 - DNF -- see reflection
 
 ## Reflections:  
 ### 4-2
@@ -59,3 +60,7 @@ I got my ass kicked, struggling for over an hour not knowing what or how to do. 
 Fairly straightfoward. I am certain I did not use the most efficient method but the answer is correct on the first try anyway
 ### 11-2
 Well a quick mod to continue bruteforcing is... not ideal to say the least. Fortunately, I quickly came up with an alternative and spent more time debugging than implementing. Biggest takeaway is to keep track of my columns and rows (x and y) better. The mixups definitely took a chunk of my time.
+### 12-1
+Took some time to think on how to do this, ended up bruteforcing by testing all permutations. Created a function to check for validity of each permutation, after testing was 100% accurate. During the second part I swapped it for RegEx, which is what is present now. No effect on function.
+### 12-2
+Dynamic Programming and Memoization. I need to learn better how to take advantage of such cases especially with recursive functions. Brute forcing would take at minimum 24 hours, if not much more. I consider this as a DNF despite collecting the star as I searched online for a solution that I remade after understanding it. On one hand I feel like I could have done better, not looking at solutions. On the other hand, I have never used dynamic programming before, and so I had never thought about how it works/how to use it. I did come across a method which seemingly does not use dynamic programming, 
