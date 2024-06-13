@@ -25,6 +25,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 10-1 - 26 mins  
 10-2 - 2 hours 4 mins  
 11-1 - 14mins
+11-2 - 28mins
+12-1 - 1 hour 16 mins
 
 ## Reflections:  
 ### 4-2
