@@ -54,6 +54,5 @@ for line in f:
         if isValid(i, group):
             count += 1
 
-    print(condition, group, count)
     total += count
 print(total)
