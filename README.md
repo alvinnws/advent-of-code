@@ -24,11 +24,11 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 9-2 - 1 min 46s  
 10-1 - 26 mins  
 10-2 - 2 hours 4 mins  
-11-1 - 14mins
-11-2 - 28mins
-12-1 - 1 hour 16 mins
-12-2 - DNF -- see reflection
-13-1 - 2 hours 47 mins
+11-1 - 14mins  
+11-2 - 28mins  
+12-1 - 1 hour 16 mins  
+12-2 - DNF -- see reflection  
+13-1 - 2 hours 47 mins  
 
 ## Reflections:  
 ### 4-2
