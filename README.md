@@ -28,6 +28,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 11-2 - 28mins
 12-1 - 1 hour 16 mins
 12-2 - DNF -- see reflection
+13-1 - 2 hours 47 mins
 
 ## Reflections:  
 ### 4-2
@@ -64,3 +65,5 @@ Well a quick mod to continue bruteforcing is... not ideal to say the least. Fort
 Took some time to think on how to do this, ended up bruteforcing by testing all permutations. Created a function to check for validity of each permutation, after testing was 100% accurate. During the second part I swapped it for RegEx, which is what is present now. No effect on function.
 ### 12-2
 Dynamic Programming and Memoization. I need to learn better how to take advantage of such cases especially with recursive functions. Brute forcing would take at minimum 24 hours, if not much more. I consider this as a DNF despite collecting the star as I searched online for a solution that I remade after understanding it. On one hand I feel like I could have done better, not looking at solutions. On the other hand, I have never used dynamic programming before, and so I had never thought about how it works/how to use it. I did come across a method which seemingly does not use dynamic programming, 
+### 13-1
+Initially had a lot of issues with the code, realising that I cannot be checking for a palindrome line by line. Instead, I needed to check all the lines at the same time. From there, it was an issue of being usure what the input expected, whether or not a mirror could be ON a row/column. e.g. `.#.`, should I return 0 or 1? I adjusted right detection but not left and that stumped my debug for 20 minutes more.
