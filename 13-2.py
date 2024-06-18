@@ -7,37 +7,43 @@ def flip2d(arr):
         tmp.append(row)
     return tmp
 
+def f(p, s):
+    for i in range(len(p)):
+        if sum(c != d for l,m in zip(p[i-1::-1], p[i:])
+                      for c,d in zip(l, m)) == s: return i
+    else: return 0
+
 def columnpalin(pattern):
-    #print('-'*15)
-    #for i in pattern:
-     #   print(i)
-    s, e, found, right = -1, len(pattern), False, 0
-    while s != e - 2 and not found:
-        s += 1
-        #print(s, '-'*10)
+    print('')
+    lp = len(pattern)
+    s = -2 if lp % 2 == 0 else -1
+    solved = False
+    while s < lp - 2 and not solved:
+        s += 2
+        print(s, "-"*20)
         smudges = 0
-        for i in range(s, e):
-            #print(pattern[i], pattern[e - 1 - i + s])
-            if pattern[i] == pattern[e - 1 - i + s]:
+        for i in range(s,lp):
+            print(smudges, pattern[i], pattern[lp-1-i+s], pattern[i] == pattern[lp-1-i+s])
+            if pattern[i] == pattern[lp-1-i+s]:
                 continue
             for c in range(len(pattern[i])):
-                if pattern[i][c] != pattern[e - 1 - i + s][c]:
-                    smudges += 1
+                if pattern[i][c] == pattern[lp-1-i+s][c]:
+                    continue
+                smudges += 1
                 if smudges > 2:
                     break
             if smudges > 2:
                 break
-        if smudges != 2:
-            continue
-        found = True
-    #print(s-1, found)
-    if found != True:
-        return 0
-    return s - 1
+        if smudges == 2:
+            solved = True
+    if solved:
+        return s
+    return -1
 
 f = open("input.txt")
 
 total = 0
+tots2 = 0
 pattern = []
 reverse = []
 for line in f:
@@ -46,17 +52,39 @@ for line in f:
         reverse.insert(0, line.strip())
         continue
     
-    total += max(columnpalin(pattern), len(pattern) - columnpalin(reverse) - 2 if columnpalin(reverse) else 0) * 100
+    rowsp = columnpalin(pattern)
+    rowsr = columnpalin(reverse)
+    calcp = (len(pattern) - rowsp)/2 + rowsp if rowsp > -1 else 0
+    calcr = (len(pattern) - rowsr)/2 if rowsr > -1 else 0
+    total += max(calcp, calcr) * 100
     pattern = flip2d(pattern)
-    reverse = flip2d(reverse)
-    total += max(columnpalin(pattern), len(pattern) - columnpalin(reverse) - 2 if columnpalin(reverse) else 0)
+    reverse = []
+    for i in pattern:
+        reverse.insert(0, i)
+    rowsp = columnpalin(pattern)
+    rowsr = columnpalin(reverse)
+    calcp = (len(pattern) - rowsp)/2 + rowsp if rowsp > -1 else 0
+    calcr = (len(pattern) - rowsr)/2 if rowsr > -1 else 0
+    #print(calcp, calcr)
+    total += max(calcp, calcr)
     pattern = []
     reverse = []
-    print(total)
+    #tots2 += 100 * f(pattern) + f([*zip(*pattern)])
+    print(int(total))
 
-total += max(columnpalin(pattern), len(pattern) - columnpalin(reverse) - 2 if columnpalin(reverse) else 0) * 100
+rowsp = columnpalin(pattern)
+rowsr = columnpalin(reverse)
+calcp = (len(pattern) - rowsp)/2 + rowsp if rowsp > -1 else 0
+calcr = (len(pattern) - rowsr)/2 if rowsr > -1 else 0
+total += max(calcp, calcr) * 100
 pattern = flip2d(pattern)
-reverse = flip2d(reverse)
-total += max(columnpalin(pattern), len(pattern) - columnpalin(reverse) - 2 if columnpalin(reverse) else 0)
+reverse = []
+for i in pattern:
+    reverse.insert(0, i)
+rowsp = columnpalin(pattern)
+rowsr = columnpalin(reverse)
+calcp = (len(pattern) - rowsp)/2 + rowsp if rowsp > -1 else 0
+calcr = (len(pattern) - rowsr)/2 if rowsr > -1 else 0
+total += max(calcp, calcr)
+print(int(total))
 
-print(total)
