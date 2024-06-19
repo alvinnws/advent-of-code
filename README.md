@@ -29,7 +29,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 12-1 - 1 hour 16 mins  
 12-2 - DNF -- see reflection  
 13-1 - 2 hours 47 mins  
-13-2 - 5 days, 2.5 day break inbetween  
+13-2 - 5 days, 2.5 day break inbetween   
+14-1 - 13 mins
 
 ## Reflections:  
 ### 4-2
@@ -70,3 +71,5 @@ Dynamic Programming and Memoization. I need to learn better how to take advantag
 Initially had a lot of issues with the code, realising that I cannot be checking for a palindrome line by line. Instead, I needed to check all the lines at the same time. From there, it was an issue of being usure what the input expected, whether or not a mirror could be ON a row/column. e.g. `.#.`, should I return 0 or 1? I adjusted right detection but not left and that stumped my debug for 20 minutes more.
 ### 13-2
 I need to be more precise with my line of thinking when implementing. I redid my code maybe 3-4 times, each time a new mistake would crop up that I have to go in to patch. The issue I resolved last was present in every prior attempt for 13-2, despite my remaking of every line a few times. I did not need to use others' solutions/ideas in the end, but I did go to reddit for extra test inputs. This one felt like such a huge mental block because the final solution is not inherently difficult.
+### 14-1
+Finishing this fast is a real confidence booster after 13-2. I basically used bubble sort, comparing only '.' and 'O'. Not too complicated, luckily.
