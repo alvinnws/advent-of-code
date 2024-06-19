@@ -30,7 +30,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 12-2 - DNF -- see reflection  
 13-1 - 2 hours 47 mins  
 13-2 - 5 days, 2.5 day break inbetween   
-14-1 - 13 mins
+14-1 - 13 mins  
+14-2 - 15 mins 45s
 
 ## Reflections:  
 ### 4-2
@@ -73,3 +74,5 @@ Initially had a lot of issues with the code, realising that I cannot be checking
 I need to be more precise with my line of thinking when implementing. I redid my code maybe 3-4 times, each time a new mistake would crop up that I have to go in to patch. The issue I resolved last was present in every prior attempt for 13-2, despite my remaking of every line a few times. I did not need to use others' solutions/ideas in the end, but I did go to reddit for extra test inputs. This one felt like such a huge mental block because the final solution is not inherently difficult.
 ### 14-1
 Finishing this fast is a real confidence booster after 13-2. I basically used bubble sort, comparing only '.' and 'O'. Not too complicated, luckily.
+### 14-2
+Well making me do the same thing 4 billion times is sure to result in brute force not working. However, in my spite I realised that after some time, the total load at the end of one cycle drops into a repeating pattern. I tested the math to figure out which number in the pattern I have on the example input, which worked, then went straight to the full input. It did not take very long to reach the repeating pattern, and from there I calculated the answer. Not exactly a satisfying method to get the answer, however.
