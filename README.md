@@ -33,6 +33,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 14-1 - 13 mins  
 14-2 - 15 mins 45s  
 15-1 - 7min 40s  
+12-2 - 20mins 5s
 
 ## Reflections:  
 ### 4-2
@@ -79,3 +80,5 @@ Finishing this fast is a real confidence booster after 13-2. I basically used bu
 Well making me do the same thing 4 billion times is sure to result in brute force not working. However, in my spite I realised that after some time, the total load at the end of one cycle drops into a repeating pattern. I tested the math to figure out which number in the pattern I have on the example input, which worked, then went straight to the full input. It did not take very long to reach the repeating pattern, and from there I calculated the answer. Not exactly a satisfying method to get the answer, however.
 ### 15-1
 Implementing a hashing algorithm, quite simple in contrast to some of the days that came before this.
+### 15-2
+Honestly, I took a little too long understanding what the question wanted. Implementation was not particularly difficult, a couple of errors that could quickly be spotted and fixed with the example input. Happy about day 15 overall.
