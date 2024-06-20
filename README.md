@@ -33,7 +33,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 14-1 - 13 mins  
 14-2 - 15 mins 45s  
 15-1 - 7min 40s  
-12-2 - 20mins 5s
+15-2 - 20mins 5s  
+16-1 - 36min 35s  
 
 ## Reflections:  
 ### 4-2
@@ -82,3 +83,5 @@ Well making me do the same thing 4 billion times is sure to result in brute forc
 Implementing a hashing algorithm, quite simple in contrast to some of the days that came before this.
 ### 15-2
 Honestly, I took a little too long understanding what the question wanted. Implementation was not particularly difficult, a couple of errors that could quickly be spotted and fixed with the example input. Happy about day 15 overall.
+### 16-1
+Setting up the functions in hope it helps for part 2, but my code got the correct answer first try again today, which is a win to me. I did have to increase the maximum recursion depth as I hit the limit. 
