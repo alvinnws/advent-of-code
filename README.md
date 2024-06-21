@@ -37,6 +37,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 16-1 - 36min 35s  
 16-2 - 10min 15s  
 17-1 - 6 hours, 3.5 hour break  
+17-2 - 51mins
 
 ## Reflections:  
 ### 4-2
@@ -91,3 +92,5 @@ Setting up the functions in hope it helps for part 2, but my code got the correc
 At least I only have to repeat the same thing 12100 times, not a billion. Setting everything as a recursive function definitely sped up the process, I just had to ensure the states were not being reused, and started from a blank slate each time. A little ugly copy pasting for each direction later, I had the answer.
 ### 17-1
 I got spoilt by reddit in knowing today's puzzle intended to use djikstra's algorithm. I was browsing day 16 memes too, how unfortunate. I do not know if I would have thought of using djikstra by myself, but knowing to use djikstra made my thinking very simple. I spent around 1.5 hours trying to implement, getting spaghettier and spaghettier code, then decided I needed a break. Afterwards, I came back and could solve it fairly quickly with some debugging.
+### 17-2
+What in the overthinking. I literally only needed to change 3 lines, add 1 line and indent a few others. Honestly, should never have taken this long and certainly could have been done in 5 minutes.
