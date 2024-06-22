@@ -37,7 +37,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 16-1 - 36min 35s  
 16-2 - 10min 15s  
 17-1 - 6 hours, 3.5 hour break  
-17-2 - 51mins
+17-2 - 51mins  
+18-1 - 58mins  
 
 ## Reflections:  
 ### 4-2
@@ -94,3 +95,5 @@ At least I only have to repeat the same thing 12100 times, not a billion. Settin
 I got spoilt by reddit in knowing today's puzzle intended to use djikstra's algorithm. I was browsing day 16 memes too, how unfortunate. I do not know if I would have thought of using djikstra by myself, but knowing to use djikstra made my thinking very simple. I spent around 1.5 hours trying to implement, getting spaghettier and spaghettier code, then decided I needed a break. Afterwards, I came back and could solve it fairly quickly with some debugging.
 ### 17-2
 What in the overthinking. I literally only needed to change 3 lines, add 1 line and indent a few others. Honestly, should never have taken this long and certainly could have been done in 5 minutes.
+### 18-1
+This was not that bad. I spent a bunch of time thinking how to most efficiently get the answer, then eventually settled on the easiest to code method. As long as it is correct I suppose. Technically speaking my code would not work on every input, and would require a small adjustment on other inputs.
