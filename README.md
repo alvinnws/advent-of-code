@@ -39,6 +39,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 17-1 - 6 hours, 3.5 hour break  
 17-2 - 51mins  
 18-1 - 58mins  
+18-2 - 23mins 15s
 
 ## Reflections:  
 ### 4-2
@@ -97,3 +98,5 @@ I got spoilt by reddit in knowing today's puzzle intended to use djikstra's algo
 What in the overthinking. I literally only needed to change 3 lines, add 1 line and indent a few others. Honestly, should never have taken this long and certainly could have been done in 5 minutes.
 ### 18-1
 This was not that bad. I spent a bunch of time thinking how to most efficiently get the answer, then eventually settled on the easiest to code method. As long as it is correct I suppose. Technically speaking my code would not work on every input, and would require a small adjustment on other inputs.
+### 18-2
+Of course, break brute force by making you do the same thing but much too many times more. I did think about the shoelace method the for part 1, but somehow figured that would be more work. It was not. My part 2 is of course much more optimised that part 1 as a result. For some reason though, the perimeter was only half counted, not sure about the maths behind that.
