@@ -24,22 +24,22 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 9-2 - 1 min 46s  
 10-1 - 26 mins  
 10-2 - 2 hours 4 mins  
-11-1 - 14mins  
-11-2 - 28mins  
+11-1 - 14 mins  
+11-2 - 28 mins  
 12-1 - 1 hour 16 mins  
 12-2 - DNF -- see reflection  
 13-1 - 2 hours 47 mins  
 13-2 - 5 days, 2.5 day break inbetween   
 14-1 - 13 mins  
 14-2 - 15 mins 45s  
-15-1 - 7min 40s  
-15-2 - 20mins 5s  
-16-1 - 36min 35s  
-16-2 - 10min 15s  
+15-1 - 7 min 40s  
+15-2 - 20 mins 5s  
+16-1 - 36 min 35s  
+16-2 - 10 min 15s  
 17-1 - 6 hours, 3.5 hour break  
-17-2 - 51mins  
-18-1 - 58mins  
-18-2 - 23mins 15s
+17-2 - 51 mins  
+18-1 - 58 mins  
+18-2 - 23 mins 15s
 
 ## Reflections:  
 ### 4-2
