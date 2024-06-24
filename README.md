@@ -41,6 +41,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 18-1 - 58 mins  
 18-2 - 23 mins 15s  
 19-1 - 37 mins 25s  
+19-2 - 1 day  
 
 ## Reflections:  
 ### 4-2
@@ -105,3 +106,5 @@ Picture of my input's lava lagoon
 Of course, break brute force by making you do the same thing but much too many times more. I did think about the shoelace method the for part 1, but somehow figured that would be more work. It was not. My part 2 is of course much more optimised that part 1 as a result. For some reason though, the perimeter was only half counted, not sure about the maths behind that.
 ### 19-1
 I took my time to plan out how everything should function, and that paid off in a simple coding and debugging process, obtaining the answer fairly quickly. I did not feel stuck or lost, which is a positive.
+### 19-2
+I had the right idea at first, but completely wrong execution. When dealing with ranges, always have your variables record both the start and end, not just one side of it. It then took many hours of debugging, including forgetting to alter a for loop to account for the (now necessary) last item. Frustrating.
