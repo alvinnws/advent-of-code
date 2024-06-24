@@ -39,7 +39,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 17-1 - 6 hours, 3.5 hour break  
 17-2 - 51 mins  
 18-1 - 58 mins  
-18-2 - 23 mins 15s
+18-2 - 23 mins 15s  
+19-1 - 37 mins 25s  
 
 ## Reflections:  
 ### 4-2
@@ -102,3 +103,5 @@ This was not that bad. I spent a bunch of time thinking how to most efficiently 
 Picture of my input's lava lagoon  
 ### 18-2
 Of course, break brute force by making you do the same thing but much too many times more. I did think about the shoelace method the for part 1, but somehow figured that would be more work. It was not. My part 2 is of course much more optimised that part 1 as a result. For some reason though, the perimeter was only half counted, not sure about the maths behind that.
+### 19-1
+I took my time to plan out how everything should function, and that paid off in a simple coding and debugging process, obtaining the answer fairly quickly. I did not feel stuck or lost, which is a positive.
