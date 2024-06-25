@@ -42,6 +42,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 18-2 - 23 mins 15s  
 19-1 - 37 mins 25s  
 19-2 - 1 day  
+20-1 - 2 hours  
 
 ## Reflections:  
 ### 4-2
@@ -108,3 +109,5 @@ Of course, break brute force by making you do the same thing but much too many t
 I took my time to plan out how everything should function, and that paid off in a simple coding and debugging process, obtaining the answer fairly quickly. I did not feel stuck or lost, which is a positive.
 ### 19-2
 I had the right idea at first, but completely wrong execution. When dealing with ranges, always have your variables record both the start and end, not just one side of it. It then took many hours of debugging, including forgetting to alter a for loop to account for the (now necessary) last item. Frustrating.
+### 20-1
+Learnt a new thing about python classes that would have saved some trouble -- variables such as dictionaries are shared for all instances of the same class if initialised outside of class functions. Other than that, some faffing about was necessary, and unexpectedly did not find any cycle.
