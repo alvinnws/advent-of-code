@@ -45,6 +45,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 20-1 - 2 hours  
 20-2 - 2 hours
 21-1 - 25 mins
+21-2 - 6 hours 30 mins (3+hours of break)
 
 ## Reflections:  
 ### 4-2
@@ -117,3 +118,5 @@ Learnt a new thing about python classes that would have saved some trouble -- va
 Brute force would really have been impossible -- a casual 229 trillion button presses. My final answer is not a general solution, it requires one to break the input into parts manually. I did check with reddit regarding the method as I wanted to know I was on the right track before scanning the input by hand, and it seems the majority used such a tactic. 5 more days.
 ### 21-1
 A simple BFS algorithm settled this puzzle. Not a stranger to BFS in AOC, and I suspect the next part may ask the man to walk a billion steps or something similar.
+### 21-2
+Well it was similar to walking a billion times. But 26 million steps in an infite plane. Figured out most of the math, but required external help to cross the line. Most of the issue was in forgetting to account for the offset in starting position (middle rather than 0,0). This was largely a math issue rather than a coding issue for me.
