@@ -44,6 +44,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 19-2 - 1 day  
 20-1 - 2 hours  
 20-2 - 2 hours
+21-1 - 25 mins
 
 ## Reflections:  
 ### 4-2
@@ -114,3 +115,5 @@ I had the right idea at first, but completely wrong execution. When dealing with
 Learnt a new thing about python classes that would have saved some trouble -- variables such as dictionaries are shared for all instances of the same class if initialised outside of class functions. Other than that, some faffing about was necessary, and unexpectedly did not find any cycle.
 ### 20-2
 Brute force would really have been impossible -- a casual 229 trillion button presses. My final answer is not a general solution, it requires one to break the input into parts manually. I did check with reddit regarding the method as I wanted to know I was on the right track before scanning the input by hand, and it seems the majority used such a tactic. 5 more days.
+### 21-1
+A simple BFS algorithm settled this puzzle. Not a stranger to BFS in AOC, and I suspect the next part may ask the man to walk a billion steps or something similar.
