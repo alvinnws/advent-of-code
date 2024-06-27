@@ -46,6 +46,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 20-2 - 2 hours
 21-1 - 25 mins
 21-2 - 6 hours 30 mins (3+hours of break)
+22-1 - 2 hours 40 mins  
 
 ## Reflections:  
 ### 4-2
@@ -120,3 +121,5 @@ Brute force would really have been impossible -- a casual 229 trillion button pr
 A simple BFS algorithm settled this puzzle. Not a stranger to BFS in AOC, and I suspect the next part may ask the man to walk a billion steps or something similar.
 ### 21-2
 Well it was similar to walking a billion times. But 26 million steps in an infite plane. Figured out most of the math, but required external help to cross the line. Most of the issue was in forgetting to account for the offset in starting position (middle rather than 0,0). This was largely a math issue rather than a coding issue for me.
+### 22-1
+Spending an hour+ debugging only to spot that a single '==' should actually be '=' is fun. I took my time with this one, not coding anything for the first half an hour or so to work out the ideas in my head. Went relatively smoothly
