@@ -48,6 +48,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 21-2 - 6 hours 30 mins (3+hours of break)
 22-1 - 2 hours 40 mins  
 22-2 - 2 hours (read question 2 hours before beginning though)  
+23-1 - 31 mins
 
 ## Reflections:  
 ### 4-2
@@ -126,3 +127,5 @@ Well it was similar to walking a billion times. But 26 million steps in an infit
 Spending an hour+ debugging only to spot that a single '==' should actually be '=' is fun. I took my time with this one, not coding anything for the first half an hour or so to work out the ideas in my head. Went relatively smoothly
 ### 22-2
 I think this was frustrating because I knew the right concepts but failed to implement efficiently. I took a wrong approach that required dynamic programming, which I did not implement, then waited for the (slower) output to tell me I was wrong. My final approach should have been the one I took from the start, it is simpler and more direct. I needlessly overcomplicated earlier.
+### 23-1
+Quite happy with this, small simple maze solving algorithm. Luckily the input isn't too large, although I might be stubborn and wait for it to be solved.
