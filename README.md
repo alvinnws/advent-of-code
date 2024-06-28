@@ -48,7 +48,8 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 21-2 - 6 hours 30 mins (3+hours of break)
 22-1 - 2 hours 40 mins  
 22-2 - 2 hours (read question 2 hours before beginning though)  
-23-1 - 31 mins
+23-1 - 31 mins  
+23-2 - 1 hour 38 mins  
 
 ## Reflections:  
 ### 4-2
@@ -129,3 +130,5 @@ Spending an hour+ debugging only to spot that a single '==' should actually be '
 I think this was frustrating because I knew the right concepts but failed to implement efficiently. I took a wrong approach that required dynamic programming, which I did not implement, then waited for the (slower) output to tell me I was wrong. My final approach should have been the one I took from the start, it is simpler and more direct. I needlessly overcomplicated earlier.
 ### 23-1
 Quite happy with this, small simple maze solving algorithm. Luckily the input isn't too large, although I might be stubborn and wait for it to be solved.
+### 23-2
+Did I attempt to allow the previous algo to do its thing, after discounting the 'v' and '>'s? Yes. Would it have taken forever? Also yes. I spent 45+ minutes waiting on it and also testing optimisations, before deciding it might be worth to pursue an alternative route. Using the junctions instead of the individual paths is much faster, considering there were only 36 junctions but 9000 paths. Overall, today was good as this was finished relatively quickly.
