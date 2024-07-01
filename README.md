@@ -51,6 +51,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 23-1 - 31 mins  
 23-2 - 1 hour 38 mins  
 24-1 - 37 mins  
+24-2 - 3 days
 
 ## Reflections:  
 ### 4-2
@@ -135,3 +136,5 @@ Quite happy with this, small simple maze solving algorithm. Luckily the input is
 Did I attempt to allow the previous algo to do its thing, after discounting the 'v' and '>'s? Yes. Would it have taken forever? Also yes. I spent 45+ minutes waiting on it and also testing optimisations, before deciding it might be worth to pursue an alternative route. Using the junctions instead of the individual paths is much faster, considering there were only 36 junctions but 9000 paths. Overall, today was good as this was finished relatively quickly.
 ### 24-1
 This was just maths, luckily. I took a bit of time to process the question and work out the maths. Programming wise, I need to remember to account for edge cases. Thats about it. Can't wait to have to deal with 3D equations for part 2
+### 24-2
+This was super frustrating because I knew it was a maths question and I knew I had the knowledge from A levels to solve it. However, I never came across a good, easy solution by myself. I kept thinking to break the given vectors into individual x, y, and z thinking it would make it easier to calculate or simplify. Instead, the simplest solution relies on properties of vectors and conditions of the question. I guess I avoided thinking about vectors and their properties because I have forgotten how to apply them. This sucked.
