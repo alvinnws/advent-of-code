@@ -52,6 +52,7 @@ My goal with my solutions is not to necessarily have the most optimised answer, 
 23-2 - 1 hour 38 mins  
 24-1 - 37 mins  
 24-2 - 3 days
+25-1 - 3 hours
 
 ## Reflections:  
 ### 4-2
@@ -138,3 +139,5 @@ Did I attempt to allow the previous algo to do its thing, after discounting the 
 This was just maths, luckily. I took a bit of time to process the question and work out the maths. Programming wise, I need to remember to account for edge cases. Thats about it. Can't wait to have to deal with 3D equations for part 2
 ### 24-2
 This was super frustrating because I knew it was a maths question and I knew I had the knowledge from A levels to solve it. However, I never came across a good, easy solution by myself. I kept thinking to break the given vectors into individual x, y, and z thinking it would make it easier to calculate or simplify. Instead, the simplest solution relies on properties of vectors and conditions of the question. I guess I avoided thinking about vectors and their properties because I have forgotten how to apply them. This sucked.
+### 25-1
+I knew this was a graph problem, and the problem statement did all but explicitly state this. I thought there would be something to do with cycle detection, or making an undirected graph to find SCCs, or something similar. Eventually, I could not come up with a single solution. That was disappointing. I implemented another person's idea based on their explanation, without referring to any code.
