@@ -1,9 +1,11 @@
 # 2024
 
 ## Timings
-1-1 - 3min24s
-1-2 - 2min22s
+1-1 - 03min24s
+1-2 - 02min22s
 2-1 - 22min53s
 2-2 - 37min00s
-3-1 - 6min14s
-3-2 - 2min20s
+3-1 - 06min14s
+3-2 - 02min20s
+4-1 - 29min46s
+4-2 - 13min00s
