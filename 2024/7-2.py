@@ -12,7 +12,7 @@ def solver(target, vals, ops = []):
             return True
         else:
             return False
-    return solver(target, vals, ops + ['+']) or solver(target, vals, ops + ['*']) or solver(target, vals, ops+['||'])
+    return solver(target, vals, ops + ['+']) or solver(target, vals, ops + ['*']) or solver(target, vals, ops + ['||'])
 
 total = 0
 for line in f:

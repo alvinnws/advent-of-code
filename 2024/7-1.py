@@ -8,7 +8,6 @@ def solver(target, vals, ops = []):
         if s == target:
             return True
         else:
-            ops.pop(-1)
             return False
     return solver(target, vals, ops + ['+']) or solver(target, vals, ops + ['*'])
 
