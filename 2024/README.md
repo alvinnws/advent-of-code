@@ -17,3 +17,5 @@
 7-2 - 02min04s  
 8-1 - 25min40s  
 8-2 - 12min23s  
+9-1 - 11min57s (675th global)  
+9-2 - 01hrs10m
