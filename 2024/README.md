@@ -1,4 +1,6 @@
 # 2024
+Disclaimer: The code I have listed is in no way optimised. The goal of this challenge has been to reach a correct answer, and hence I did not put effort into improving performance, reducing bloat or other potential improvements.
+
 
 ## Timings
 | Day-Part | Timing | 
@@ -14,7 +16,7 @@
 | 5-1  |  19min56s  |  
 | 5-2  |  15min35s  |  
 | 6-1  |  33min42s  |  
-| 6-2  |  WIP  |  
+| 6-2  |  Too Long  |  
 | 7-1  |  22min14s  |  
 | 7-2  |  02min04s  |  
 | 8-1  |  25min40s  |  
