@@ -1,5 +1,3 @@
-from copy import deepcopy
-
 f = open("inputs/18.txt")
 
 WIDTH = 71
