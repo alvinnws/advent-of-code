@@ -43,3 +43,4 @@ Disclaimer: The code I have listed is in no way optimised. The goal of this chal
 | 18-2 |  10min33s  |
 | 19-1 |  21min35s  |
 | 19-2 |  10min23s  |
+| 20-1 |  02hrs21m  |
