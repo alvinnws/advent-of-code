@@ -46,3 +46,4 @@ Disclaimer: The code I have listed is in no way optimised. The goal of this chal
 | 20-1 |  02hrs21m  |
 | 22-1 |  08min06s (992nd global) |
 | 22-2 |  13min20s (382nd global) |
+| 25   |  15min16s  |
