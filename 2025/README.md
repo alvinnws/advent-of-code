@@ -16,3 +16,5 @@ This one messed with me as I initially kept the integer ranges in a dictionary. 
 Don't know why I was quirky with the grand_total var name, but I did feel like it. Not too bad this day, just needed to mentally flip the whole file on part 2 to solve.
 ### Day 7
 Accidentally solved part 2 before solving part 1 by misinterpreting the task at hand. Left my solution as is, so 07-2 is shorter than 07-1. Fantastic
+### Day 8
+What started as a desire to make nice looking OOP code turned into ugly half-OOP half-functional code. I remembered the UFDS but forgot the implementation, only to improvise, fail and turn back to searching the implementation and frankensteining the result. Ouch.
