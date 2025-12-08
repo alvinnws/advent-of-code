@@ -12,3 +12,7 @@ Slightly more challenging than day 1, although it took less time. 2-2 was made m
 A classic AOC problem involving 2D maps, easy to figure out the surrounding 8 blocks. For part 2, added another loop and deleted rolls as we went.
 ### Day 5
 This one messed with me as I initially kept the integer ranges in a dictionary. No idea why, but using a list was better as identical lower bounds create new ranges regardless, rather than overriding. Part 2 was straightforward as I just had to simplify the ranges and do a little math.
+### Day 6
+Don't know why I was quirky with the grand_total var name, but I did feel like it. Not too bad this day, just needed to mentally flip the whole file on part 2 to solve.
+### Day 7
+Accidentally solved part 2 before solving part 1 by misinterpreting the task at hand. Left my solution as is, so 07-2 is shorter than 07-1. Fantastic
