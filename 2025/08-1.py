@@ -49,6 +49,5 @@ for i in range(len(parent)):
     counts[find(i)] += 1
 
 counts.sort()
-print(counts)
 
 print(counts[-1]*counts[-2]*counts[-3])
