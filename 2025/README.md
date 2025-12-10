@@ -18,3 +18,6 @@ Don't know why I was quirky with the grand_total var name, but I did feel like i
 Accidentally solved part 2 before solving part 1 by misinterpreting the task at hand. Left my solution as is, so 07-2 is shorter than 07-1. Fantastic
 ### Day 8
 What started as a desire to make nice looking OOP code turned into ugly half-OOP half-functional code. I remembered the UFDS but forgot the implementation, only to improvise, fail and turn back to searching the implementation and frankensteining the result. Ouch.
+### Day 9
+Part 1 was easy enough, brute force and sort areas. Part 2... I couldn't make a working algo that fits the general case, so I started cheesing the problem by plotting the graph and observing patterns. I narrowed the possible points by eliminating cases which didnt fit the pattern, then sorted the remaining ~600 possible shapes visually. Plot each graph starting with the largest area, then take the first which does not exceed the boundary.  
+The failed algo has been left in the part 2 code.
