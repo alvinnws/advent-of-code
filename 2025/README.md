@@ -21,3 +21,7 @@ What started as a desire to make nice looking OOP code turned into ugly half-OOP
 ### Day 9
 Part 1 was easy enough, brute force and sort areas. Part 2... I couldn't make a working algo that fits the general case, so I started cheesing the problem by plotting the graph and observing patterns. I narrowed the possible points by eliminating cases which didnt fit the pattern, then sorted the remaining ~600 possible shapes visually. Plot each graph starting with the largest area, then take the first which does not exceed the boundary.  
 The failed algo has been left in the part 2 code.
+### Day 10
+Part 1 was easy, part 2.... work in progress so lets pretend day 10 doesn't exist for now
+### Day 11
+Part 1 was a simple bfs, done plenty of prior days. Part 2's twist was that the path was much longer and that we needed to keep track of whether or not we visited these two devices. Track it as a state, then recursively call the function with memoization. The answer was much larger than I anticipated but goes to show how much more efficient the intended solution is.
