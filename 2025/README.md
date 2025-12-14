@@ -25,3 +25,5 @@ The failed algo has been left in the part 2 code.
 Part 1 was easy, part 2.... work in progress so lets pretend day 10 doesn't exist for now
 ### Day 11
 Part 1 was a simple bfs, done plenty of prior days. Part 2's twist was that the path was much longer and that we needed to keep track of whether or not we visited these two devices. Track it as a state, then recursively call the function with memoization. The answer was much larger than I anticipated but goes to show how much more efficient the intended solution is.
+### Day 12
+I got spoiled to the true solution while procrastinating when it popped up on my reddit feed. I was about to brute force everything and I think I left the remainder in there.
