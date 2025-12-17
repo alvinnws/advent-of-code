@@ -22,7 +22,8 @@ What started as a desire to make nice looking OOP code turned into ugly half-OOP
 Part 1 was easy enough, brute force and sort areas. Part 2... I couldn't make a working algo that fits the general case, so I started cheesing the problem by plotting the graph and observing patterns. I narrowed the possible points by eliminating cases which didnt fit the pattern, then sorted the remaining ~600 possible shapes visually. Plot each graph starting with the largest area, then take the first which does not exceed the boundary.  
 The failed algo has been left in the part 2 code.
 ### Day 10
-Part 1 was easy, part 2.... work in progress so lets pretend day 10 doesn't exist for now
+Part 1 was easy. As for part 2, well I initially tried brute-forcing, of course, but that wouldn't work.  
+My next thoughts were relating to linear algebra, specifically matrices with A*B=C, where we solve for B. However, the knowledge I had for such cases were specifically for square matrices, and general shapes were more difficult to solve. I later stumbled upon a [reddit post](https://www.reddit.com/r/adventofcode/comments/1pk87hl/2025_day_10_part_2_bifurcate_your_way_to_victory/) which did not require math solvers to reach a solution. This method was much more elegant in my view as it relates to part 1, and does not require external packages/solvers.
 ### Day 11
 Part 1 was a simple bfs, done plenty of prior days. Part 2's twist was that the path was much longer and that we needed to keep track of whether or not we visited these two devices. Track it as a state, then recursively call the function with memoization. The answer was much larger than I anticipated but goes to show how much more efficient the intended solution is.
 ### Day 12
