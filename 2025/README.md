@@ -2,6 +2,9 @@
 
 For this year, as I am overseas and attempting the challenges without fixed schedule or discipline, I will not be taking time or attempting fast solves.
 
+### Overall
+For most of the days, I was able to solve the problem entirely independently. I needed references for day 8-2, and got stuck on days 9-2 and 10-2. However, I feel that much of the ease has come with experience in past AOC problems. Not that it is necessarily bad to be experienced, but I wonder how much I have improved in problem solving/programming.
+
 ### Day 1
 I thought there would be an optimised route for 1-2 using modulo and floor division, but I meddled with it for too long and decided it was not worth the effort.
 ### Day 2
