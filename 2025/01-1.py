@@ -1,15 +1,9 @@
 f = open('inputs/1.txt')
 
-zeroes = 0
-current = 50
+zeroes, current, rl = 0, 50, {"L": -1, "R": 1}
 
 for line in f:
-    if line[0] == "L":
-        current = (current - int(line.strip()[1:])) % 100
-    else:
-        current = (current + int(line.strip()[1:])) % 100
-
-    if current == 0:
-        zeroes += 1
+    current = (current + rl[line[0]]*int(line.strip()[1:])) % 100
+    if current == 0: zeroes += 1
 
 print(zeroes)
